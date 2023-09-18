@@ -7,8 +7,10 @@
     <body>
         <h1>formulario</h1>
         <form action="" method="POST" enctype="multipart/form-data">
-            Nombre: <input type="text" name="nombre" />
-            Apellido: <input type="text" name="apellido" />
+            <label for="nombre"></label>    
+                Nombre: <input type="text" name="nombre" />
+            <label for="apellido"></label>
+                Apellido: <input type="text" name="apellido" autofocus="autofocus"/>
             <input type="submit" value="Enviar" />
         </form>
     
